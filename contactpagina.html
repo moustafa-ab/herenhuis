@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link href="css.css" type="text/css" rel="stylesheet">
+
+	 <!-- Embed Fonts -->
+
+	 <link href="https://fonts.googleapis.com/css?family=Bitter|Montserrat|Montserrat+Subrayada" rel="stylesheet">
+
+</head> 
+<body>
+<div class="background"></div>
+	<div class="wrapper">
+
+	<!-- Navigatie bar -->
+
+	<div class="nav">
+
+		<div class="nav-item-home">
+			<a href="index.html">HOME</a>
+		</div>
+
+		<div class="nav-item">
+			<a href="toerpagina.html">VIRTUAL TOUR</a>
+		</div>
+
+		<div class="nav-item">
+			<a href="bid.php">BIEDEN</a>
+		</div>
+
+		<div class="nav-item" style="padding-right: 20px;">
+			<a href="contactpagina.html">CONTACT</a>
+		</div>
+
+	</div>
+</div>
+
+	<div class="container">
+		<div class="flex">
+			<form id="contact" action="heren_form_verwerk.php" method="post">
+
+				<h3 class="centeren">Contact Formulier</h3>
+				<br>
+				<fieldset>
+					<input placeholder="Jouw Voornaam" name="Voornaam" id="Voornaam" type="text" tabindex="1" required>
+				</fieldset>
+				<fieldset>
+					<input placeholder="Jouw Achternaam" name="Achternaam" id="Achternaam" type="text" tabindex="1" required>
+				</fieldset>
+				<fieldset>
+					<input placeholder="Jouw Email " name="Email" id="Email" type="Email" tabindex="2" required>
+				</fieldset>
+				<fieldset>
+					<input placeholder="Jouw Nummer" name="Telefoon" id="Telefoon" type="tel" tabindex="3" required>
+				</fieldset>
+				<fieldset>
+					<input placeholder="Jouw Woonplaats" name="Woonplaats" id="Woonplaats" type="text" tabindex="4" required>
+				</fieldset>
+				<fieldset>
+					<input placeholder="Stel een vraag?" name="Bericht" id="Bericht" type="text" tabindex="5" >
+				</fieldset>
+				<fieldset>
+					<button name="submit" type="submit" id="contact-submit" data-submit="...Verzenden">Verzenden</button>
+				</fieldset>
+
+			</form>
+
+			<div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%20amterdam%20prinsengracht%20588&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Werbung: <a href="https://www.pureblack.de">Pure Black GmbH</a>
+			</div><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px; border-radius: 2px;}</style></div>
+
+
+		</div>
+
+
+
+	</div>
+
+</body>
+</html>
